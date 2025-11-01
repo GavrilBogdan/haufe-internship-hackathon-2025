@@ -100,6 +100,15 @@ export default function Navbar() {
             GuidelineAnalyzer
           </Link>
         </li>
+        <li>
+          <Link
+            href="/dashboard"
+            className="text-lg  no-underline  hover:scale-105 transition hover:underline-animation-a font-light"
+            style={{ fontFamily: "Poppins, sans-serif" }}
+          >
+            Dashboard
+          </Link>
+        </li>
       </ul>
 
       {/* Mobile menu */}
@@ -110,7 +119,7 @@ export default function Navbar() {
         <ul className="flex flex-col items-center gap-8 mt-20 font-bold">
           <li>
             <a
-              href="#hero"
+              href="#"
               className="text-lg  no-underline  hover:underline-animation-a  transition font-light"
               style={{ fontFamily: "Poppins, sans-serif" }}
               onClick={() => {}}
@@ -120,7 +129,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#AboutMe"
+              href="#HowItWorks"
               className="text-lg  no-underline  transition hover:underline-animation-a font-light"
               style={{ fontFamily: "Poppins, sans-serif" }}
               onClick={() => {}}
@@ -130,13 +139,31 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#Projects"
+              href="/FaQ"
               className="text-lg  no-underline   transition hover:underline-animation-a font-light"
               style={{ fontFamily: "Poppins, sans-serif" }}
               onClick={() => {}}
             >
               FaQ
             </a>
+          </li>
+          <li>
+            <Link
+              href="/dashboard"
+              className="text-lg  no-underline  hover:scale-105 transition hover:underline-animation-a font-light"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
+              Dashboard
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/guideline-checker"
+              className="text-lg  no-underline  hover:scale-105 transition hover:underline-animation-a font-light"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
+              GuidelineAnalyzer
+            </Link>
           </li>
         </ul>
       </div>
